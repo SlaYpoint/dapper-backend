@@ -1,0 +1,102 @@
+[
+    {
+        "_id": "5d725a4a7b292f5f8ceff789",
+        "name": "Real Madrid Backpack",
+        "brandName": "adidas",
+        "price": 2900.00,
+        "imageUrl": "https://www.goalinn.com/f/13766/137669487/adidas-real-madrid-backpack.jpg",
+        "inStock": true,
+        "category" : "Backpack",
+        "discountPrice": 1678.90
+    },
+    {
+        "_id": "5d713995b721c3bb38c1f5d0",
+        "name": "adidas Aeroready Backpack",
+        "brandName": "adidas",
+        "price": 2538.05,
+        "imageUrl": "https://www.goalinn.com/f/13789/137894258/adidas-tiro-21-aeroready-15.7l-backpack.jpg",
+        "inStock": true,
+        "category" : "Backpack",
+        "discountPrice": 1766.90
+    },
+    {
+        "_id": "5d713a66ec8f2b88b8f830b8",
+        "name": "Cristiano Ronaldo T-shirt",
+        "brandName": "Real Madrid",
+        "price": 850.00,
+        "imageUrl": "https://www.goalsquad.com/pub/media/catalog/product/cache/fd29203af382a823bfc3275bd372de6f/r/e/real-madrid-c-f-cristiano-ronaldo-t-shirt--gsfarm01crblk-0-1_1.jpg",
+        "inStock": false,
+        "category" : "T-shirt",
+        "discountPrice": 722.50
+    },
+    {
+        "_id": "5d725a037b292f5f8ceff787",
+        "name": "Football Icon T-shirt - Lionel Messi",
+        "brandName": "La Liga",
+        "price": 850.00,
+        "imageUrl": "https://www.goalsquad.com/pub/media/catalog/product/cache/fd29203af382a823bfc3275bd372de6f/f/o/football-player-icon-t-shirt-lionel-messi-barcelona-gsfacn09msblk-0-1_1.jpg",
+        "inStock": true,
+        "category" : "T-shirt",
+        "discountPrice": 722.50
+    },
+    {
+        "_id": "5d725a4a7b292f5f8ceff786",
+        "name": "Manchester United Jersey 2019-2021 - Home Kit",
+        "brandName": "Manchester United",
+        "price": 1299.00,
+        "imageUrl": "https://footballmonk.in/wp-content/uploads/2019/06/Manchester-United-Jersey-2019-20-Home-Kit-Front.jpg",
+        "inStock": false,
+        "category" : "Jersey",
+        "discountPrice": 699.00
+    },
+    {
+        "_id": "5d725a1b7b292f5f8ceff788",
+        "name": "Chelsea Home Jersey 2020-21",
+        "brandName": "Chelsea F.C",
+        "price": 1599.00,
+        "imageUrl": "https://footballmonk.in/wp-content/uploads/2020/07/buy-chelsea-home-jersey-2020-21-online-in-india-1.jpg",
+        "inStock": true,
+        "category" : "Jersey",
+        "discountPrice": 799.00
+    },
+    {
+        "_id": "5d7a514b5d2c12c7449be020",
+        "name": "Spain Scarf",
+        "brandName": "adidas",
+        "price": 1089.43,
+        "imageUrl": "https://www.goalinn.com/f/55/555560/adidas-spain-scarf.jpg",
+        "inStock": true,
+        "category" : "Accessories",
+        "discountPrice": 647.99
+    },
+    {
+        "_id": "5d7a514b5d2c12c7449be021",
+        "name": "Real Madrid Bottle 750ml",
+        "brandName": "adidas",
+        "price": 850.00,
+        "imageUrl": "https://www.goalinn.com/f/13810/138102663/adidas-real-madrid-bottle-750ml.jpg",
+        "inStock": true,
+        "category" : "Accessories",
+        "discountPrice": 650.99 
+    },
+    {
+        "_id": "5d7a514b5d2c12c7449be023",
+        "name": "Borussia Dortmund Hoodie",
+        "brandName": "SportsStuff",
+        "price": 1699.00,
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0014/3789/2697/products/Optimized-dortmund_1024x1024@2x.jpg?v=1609755020",
+        "inStock": true,
+        "category" : "Hoodie",
+        "discountPrice": 999
+    },
+    {
+        "_id": "5d7a514b5d2c12c7449be022",
+        "name": "Juventus Classic Hoodie",
+        "brandName": "SportsStuff",
+        "price": 1699.00,
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0014/3789/2697/products/Optimized-Juventus_1024x1024@2x.jpg?v=1606481861",
+        "inStock": false,
+        "category" : "Hoodie",
+        "discountPrice": 999.00
+    }
+]
