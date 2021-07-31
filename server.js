@@ -1,5 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
+const cors = require("cors");
+const cookieParser = require("cookie-parser");
 const connectDB = require("./config/db");
 const logger = require("./middleware/logger");
 const errorHandler = require("./middleware/error");
@@ -13,12 +15,13 @@ connectDB();
 
 // Routes
 const products = require('./routes/products');
+const auth = require('./routes/auth');
+const users = require('./routes/users');
 
 const app = express();
 
 // Body Parser
 app.use(express.json());
-
 
 // Middlewares
 if (process.env.NODE_ENV === "development") {
@@ -26,10 +29,16 @@ if (process.env.NODE_ENV === "development") {
 }
 
 app.use(errorHandler);
+// Cookie parsing
+app.use(cookieParser());
+// Enable CORS(Cross-Origin Resource Sharing)
+app.use(cors());
+
 
 // Mount routers
 app.use('/api/v1/products', products);
-
+app.use('/api/v1/auth', auth);
+app.use('/api/v1/auth/users', users);
 
 const PORT = process.env.PORT || 5000;
 
