@@ -11,7 +11,7 @@ exports.getProducts = asyncHandler(async (req, res, next) => {
     res.status(200).json({
         success: true,
         count: products.length,
-        data: products
+        products
     });
 });
 
@@ -32,6 +32,6 @@ exports.getProduct = asyncHandler(async (req, res, next) => {
 
     res.status(200).json({
       success: true,
-      data: product,
+      product,
     });
 });
