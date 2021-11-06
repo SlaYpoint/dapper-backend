@@ -17,6 +17,7 @@ connectDB();
 const products = require('./routes/products');
 const auth = require('./routes/auth');
 const wishlists = require('./routes/wishlists');
+const carts = require('./routes/carts');
 
 const app = express();
 
@@ -39,7 +40,8 @@ app.use(cors());
 // Mount routers
 app.use('/api/v1/products', products);
 app.use('/api/v1/auth', auth);
-app.use('/api/v1/wishlist', wishlists);
+app.use("/api/v1/wishlist", wishlists);
+app.use("/api/v1/cart", carts);
 
 app.use(errorHandler);
 
