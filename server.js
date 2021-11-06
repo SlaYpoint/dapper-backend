@@ -16,21 +16,22 @@ connectDB();
 // Routes
 const products = require('./routes/products');
 const auth = require('./routes/auth');
-const users = require('./routes/users');
+const wishlists = require('./routes/wishlists');
 
 const app = express();
 
 // Body Parser
 app.use(express.json());
 
+// Cookie parsing
+app.use(cookieParser());
+
+
 // Middlewares
 if (process.env.NODE_ENV === "development") {
   app.use(logger);
 }
 
-app.use(errorHandler);
-// Cookie parsing
-app.use(cookieParser());
 // Enable CORS(Cross-Origin Resource Sharing)
 app.use(cors());
 
@@ -38,7 +39,10 @@ app.use(cors());
 // Mount routers
 app.use('/api/v1/products', products);
 app.use('/api/v1/auth', auth);
-app.use('/api/v1/auth/users', users);
+app.use('/api/v1/wishlist', wishlists);
+
+app.use(errorHandler);
+
 
 const PORT = process.env.PORT || 5000;
 
